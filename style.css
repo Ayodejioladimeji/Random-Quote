@@ -1,0 +1,62 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:rgb(230, 28, 95);
+}
+
+.icon img{
+    height:40px;
+    width:40px;
+    margin:15px;
+}
+
+.card{
+    background:transparent;
+    margin-top:30px;
+    border:none;
+}
+
+.card-title{
+    color:white;
+    font-family:monospace;
+    margin-top:15px;
+}
+
+.author{
+    margin-top:12px;
+    color:yellow;
+}
+
+.author-name{
+    color:white;
+
+}
+
+.underline{
+    margin:15px auto;
+    background:#00ff00;
+    width:40%;
+    border-radius:25px;
+    height:3px;
+    margin-bottom:15px;
+}
+
+.generator{
+    margin:auto;
+}
+.generator button{
+    background:#00ff00;
+    height:70px;
+    width:70px;
+    border-radius:150px;
+    border:none;
+    outline:none;
+    color: rgb(230, 28, 95);
+    border:2px solid white;
+    font-weight:bold;
+    margin:15px 0;
+}
